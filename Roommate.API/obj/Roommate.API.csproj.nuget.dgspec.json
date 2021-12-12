@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.API\\Roommate.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.API\\Roommate.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.API\\Roommate.API.csproj",
+        "projectName": "Roommate.API",
+        "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.API\\Roommate.API.csproj",
+        "packagesPath": "C:\\Users\\YSN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj": {
+                "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj"
+              },
+              "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\Roommate.Service.csproj": {
+                "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\Roommate.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj",
+        "projectName": "Roommate.DB",
+        "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj",
+        "packagesPath": "C:\\Users\\YSN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\Roommate.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\Roommate.Service.csproj",
+        "projectName": "Roommate.Service",
+        "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\Roommate.Service.csproj",
+        "packagesPath": "C:\\Users\\YSN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\YSN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj": {
+                "projectPath": "C:\\Users\\YSN\\Desktop\\projects\\Bootcamp\\dotnetcore\\Roommate\\Roommate.DB\\Roommate.DB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
